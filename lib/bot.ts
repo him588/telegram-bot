@@ -3,7 +3,7 @@ import {Telegraf} from "telegraf"
 const TOKEN = process.env.local!;
 const bot = new Telegraf(TOKEN);
 
-const web_link = "https://celebrated-torte-184681.netlify.app/";
+const web_link = "https://telegram-bot-seven-mu.vercel.app/";
 
 bot.start((ctx) =>
   ctx.reply("Welcome :)))))", {
