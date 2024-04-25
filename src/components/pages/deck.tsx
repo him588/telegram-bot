@@ -1,6 +1,9 @@
 import React from 'react'
-
-function Deckpage() {
+type prop={
+    setdeck:React.Dispatch<React.SetStateAction<boolean>>
+}
+function Deckpage({setdeck}:prop) {
+    
   return (
     <div className=' flex flex-col gap-3'>
         <div className=' bg-white p-4 rounded-lg flex flex-col gap-3'>
